@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/makan"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/tombol"
+            android:text="DO'A SEBELUM MAKAN" />
+
+        <Button
+            android:id="@+id/setmakan"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A SETELAH MAKAN" />
+
+        <Button
+            android:id="@+id/setminum"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A SETELAH MINUM" />
+
+        <Button
+            android:id="@+id/sebtidur"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A SEBELUM TIDUR" />
+
+        <Button
+            android:id="@+id/mimpiburuk"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A KETIKA MIMPI BURUK" />
+
+        <Button
+            android:id="@+id/mimpibaik"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A KETIKA MIMPI BAIK" />
+
+        <Button
+            android:id="@+id/banguntidur"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A BANGUN TIDUR" />
+
+        <Button
+            android:id="@+id/istinja"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A ISTINJA" />
+
+        <Button
+            android:id="@+id/keltoilet"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A KELUAR TOILET" />
+
+        <Button
+            android:id="@+id/toilet"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="DO'A MASUK TOILET" />
+
+        <Button
+            android:id="@+id/pagihari"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="DO'A PAGI HARI"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/sorehari"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="DO'A SORE HARI"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/bercermin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="DO'A KETIKA BERCERMIN"
+            android:background="@drawable/tombol" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
