@@ -9,7 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button makan,setmakan,setminum,sebtidur,buruk,baik,banguntidur,masuktoilet,istinja,keluartoilet,pagi,sore,bercermin,masukrumah,kelrumah,
-    berpakaian,pakaianbaru,lepaspakaian,ilmu,sebelajar,sesbelajar,bepergian,kendaraan,kapal,sampaitujuan,masukmasjid,wudhu,info;
+    berpakaian,pakaianbaru,lepaspakaian,ilmu,sebelajar,sesbelajar,bepergian,kendaraan,kapal,sampaitujuan,masukmasjid,wudhu,info,share;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         masukmasjid=(Button) findViewById(R.id.masukmasjid);
         wudhu=(Button) findViewById(R.id.wudhu);
         info=(Button) findViewById(R.id.info);
+        share=(Button) findViewById(R.id.share);
 
         makan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -242,6 +243,18 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent info=new Intent(MainActivity.this,Info.class);
                 startActivity(info);
+            }
+        });
+
+        share.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent share=new Intent();
+
+                share.setAction(Intent.ACTION_SEND);
+                share.putExtra(Intent.EXTRA_TEXT,"");
+                share.setType("text/plain");
+                startActivity(Intent.createChooser(share,"mau dikirim kemana ?"));
             }
         });
     }
