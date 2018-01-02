@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Doa Harian</string>
+    <string name="app_name">Daily Prayer</string>
     <string name="kirim">"  where to send ?"</string>
     <string name="arti_makan">Meaning: O God, bless us in the provision which You have given us and save us from the punishment of the fire of hell</string>
     <string name="artisudahmakan">Meaning: Praise be to Allah who has fed us and our drinks, and made us Muslims</string>
@@ -36,7 +36,7 @@
     <string name="d_oa_istinja">ISTINJA</string>
     <string name="d_oa_masuk_toilet">SIGN TOILET</string>
     <string name="d_oa_keluar_toilet">TOILET OUT</string>
-    <string name="do_a_harian">DAILY PRAY</string>
+    <string name="do_a_harian">DAILY PRAYER</string>
     <string name="info">INFO</string>
     <string name="setting">setting</string>
     <string name="d_oa_masuk_rumah">ENTER TO HOME</string>
