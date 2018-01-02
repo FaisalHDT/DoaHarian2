@@ -11,10 +11,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@drawable/layar"
         android:orientation="vertical">
+
+
 
         <TextView
             android:layout_width="match_parent"
@@ -22,7 +24,7 @@
             android:background="@drawable/atas"
             android:gravity="center_horizontal"
             android:padding="16dp"
-            android:text="D'OA BANGUN TIDUR"
+            android:text="@string/d_oa_bangun_tidur"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
@@ -30,14 +32,21 @@
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/bismillah" />
+            android:src="@drawable/bismillah"
+             />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/border"
+            />
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <TextView
@@ -48,7 +57,7 @@
                     android:text="@string/banguntidur"
                     android:textSize="25sp"
                     android:textColor="@android:color/black"
-                    android:layout_marginRight="6dp"/>
+                    android:layout_marginEnd="6dp"/>
 
                 <TextView
                     android:id="@+id/arti_banguntidur"
@@ -64,7 +73,17 @@
 
             </LinearLayout>
         </ScrollView>
+
+
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/borderbawah"
+        android:background="@drawable/gambar"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,12 +92,12 @@
 
         <Button
             android:id="@+id/share"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/bawah"
             android:padding="10dp"
-            android:text="bagikan"
+            android:text="@string/bagikan"
             android:textSize="16sp" />
     </LinearLayout>
 

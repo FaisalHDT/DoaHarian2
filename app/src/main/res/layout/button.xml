@@ -9,147 +9,245 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/makan"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/tombol"
-            android:text="DO'A SEBELUM MAKAN" />
+            android:text="@string/d_oa_sebelum_makan" />
 
         <Button
             android:id="@+id/setmakan"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A SETELAH MAKAN" />
+            android:text="@string/d_oa_setelah_makan" />
 
         <Button
             android:id="@+id/setminum"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A SETELAH MINUM" />
+            android:text="@string/d_oa_setelah_minum" />
 
         <Button
             android:id="@+id/sebtidur"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A SEBELUM TIDUR" />
+            android:text="@string/d_oa_sebelum_tidur" />
 
         <Button
             android:id="@+id/mimpiburuk"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A KETIKA MIMPI BURUK" />
+            android:text="@string/d_oa_ketika_mimpi_buruk" />
 
         <Button
             android:id="@+id/mimpibaik"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A KETIKA MIMPI BAIK" />
+            android:text="@string/d_oa_ketika_mimpi_baik" />
 
         <Button
             android:id="@+id/banguntidur"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A BANGUN TIDUR" />
+            android:text="@string/d_oa_bangun_tidur" />
 
         <Button
             android:id="@+id/istinja"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A ISTINJA" />
+            android:text="@string/d_oa_istinja" />
 
         <Button
             android:id="@+id/keltoilet"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A KELUAR TOILET" />
+            android:text="@string/d_oa_keluar_toilet" />
 
         <Button
             android:id="@+id/toilet"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
             android:background="@drawable/tombol"
-            android:text="DO'A MASUK TOILET" />
+            android:text="@string/d_oa_masuk_toilet" />
 
         <Button
             android:id="@+id/pagihari"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
-            android:text="DO'A PAGI HARI"
-            android:background="@drawable/tombol" />
+            android:background="@drawable/tombol"
+            android:text="@string/d_oa_pagi_hari" />
 
         <Button
             android:id="@+id/sorehari"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
-            android:text="DO'A SORE HARI"
-            android:background="@drawable/tombol" />
+            android:background="@drawable/tombol"
+            android:text="@string/d_oa_sore_hari" />
 
         <Button
             android:id="@+id/bercermin"
-            android:layout_width="250dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
-            android:text="DO'A KETIKA BERCERMIN"
+            android:background="@drawable/tombol"
+            android:text="@string/d_oa_ketika_bercermin" />
+
+        <Button
+            android:id="@+id/masukrumah"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="@string/d_oa_masuk_rumah" />
+
+        <Button
+            android:id="@+id/keluarrumah"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="@string/do_a_keluar_rumah" />
+
+        <Button
+            android:id="@+id/berpakaian"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/tombol"
+            android:text="@string/do_a_berpakaian" />
+
+        <Button
+            android:id="@+id/pakaianbaru"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="@string/do_a_memakai_pakaian_baru"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/lepaspakaian"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="@string/do_a_melepas_pakaian"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/ilmubermanfaat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="@string/do_a_ilmu_bermanfaat"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/sebelumbelajar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="@string/do_a_sebelum_belajar"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/sesudahbelajar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="@string/do_a_setelah_belajar"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/bepergian"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="@string/do_a_akan_bepergian"
+            android:background="@drawable/tombol" />
+
+        <Button
+            android:id="@+id/kendaraan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="@string/do_a_naik_kendaraan"
             android:background="@drawable/tombol" />
         <Button
-            android:layout_width="250dp"
+            android:id="@+id/kapal"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
+            android:text="@string/do_a_ketika_naik_kapal"
             android:background="@drawable/tombol" />
         <Button
-            android:layout_width="250dp"
+            android:id="@+id/sampaitujuan"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
+            android:text="@string/do_a_sampai_tujuan"
             android:background="@drawable/tombol" />
         <Button
-            android:layout_width="250dp"
+            android:id="@+id/masukmasjid"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
+            android:text="@string/do_a_masuk_masjid"
             android:background="@drawable/tombol" />
         <Button
-            android:layout_width="250dp"
+            android:id="@+id/wudhu"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="6dp"
+            android:text="@string/do_a_wudhu"
             android:background="@drawable/tombol" />
 
 

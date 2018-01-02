@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doa_makan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context="com.faisalhdtbsm.doaharian.DoaMakan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/layar"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/atas"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="@string/info"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/isiinfo"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/facebook"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="@string/facebook"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    tools:ignore="TextViewEdits" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/gmail"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="@string/email"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    tools:ignore="TextViewEdits" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bawah"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

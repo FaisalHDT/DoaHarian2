@@ -11,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@drawable/layar"
         android:orientation="vertical">
@@ -22,7 +22,7 @@
             android:background="@drawable/atas"
             android:gravity="center_horizontal"
             android:padding="16dp"
-            android:text="D'OA SEBELUM MAKAN"
+            android:text="@string/d_oa_sebelum_makan"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
@@ -31,40 +31,54 @@
             android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/bismillah" />
-
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/makan"
-            android:layout_marginTop="16dp"
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/makan"
-            android:textSize="25sp"
-            android:textColor="@android:color/black"
-            android:layout_marginRight="6dp"/>
-
-        <TextView
-            android:id="@+id/arti_makan"
-            android:layout_marginTop="16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/arti_makan"
-            android:textSize="16sp"
-            android:textColor="@android:color/black"
-            android:gravity="center"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/border"
             />
 
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/makan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/makan"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/arti_makan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/arti_makan"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
-</ScrollView>
-    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/gambar"
+        android:src="@drawable/borderbawah" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,12 +87,12 @@
 
         <Button
             android:id="@+id/share"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/bawah"
             android:padding="10dp"
-            android:text="bagikan"
+            android:text="@string/bagikan"
             android:textSize="16sp" />
     </LinearLayout>
 

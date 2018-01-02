@@ -11,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:background="@drawable/layar"
         android:layout_weight="1"
         android:orientation="vertical">
@@ -22,7 +22,7 @@
             android:background="@drawable/atas"
             android:gravity="center_horizontal"
             android:padding="16dp"
-            android:text="DOA HARIAN"
+            android:text="@string/do_a_harian"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
         <ImageView
@@ -31,7 +31,7 @@
             android:layout_gravity="center_horizontal"
             android:src="@drawable/bismillah"/>
 
-        <include layout="@layout/button"></include>
+        <include layout="@layout/button" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,8 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/kiri"
-        android:drawableRight="@drawable/info"
-        android:text="info"
+        android:drawableEnd="@drawable/info"
+        android:text="@string/info"
         android:textAlignment="textStart"
         android:textSize="16sp"
         android:padding="10dp"
@@ -54,8 +54,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/tengah"
-        android:drawableRight="@drawable/cari"
-        android:text="bagikan"
+        android:drawableEnd="@drawable/cari"
+        android:text="@string/bagikan"
         android:textAlignment="textStart"
         android:textSize="16sp"
         android:padding="10dp"
@@ -66,8 +66,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/kanan"
         android:textAlignment="textStart"
-        android:drawableRight="@drawable/pengaturan"
-        android:text="setting"
+        android:drawableEnd="@drawable/pengaturan"
+        android:text="@string/setting"
         android:textSize="16sp"
         android:padding="10dp"
         android:layout_weight="1"

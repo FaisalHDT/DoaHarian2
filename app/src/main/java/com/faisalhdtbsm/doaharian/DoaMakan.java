@@ -12,8 +12,10 @@ import android.widget.TextView;
 public class DoaMakan extends AppCompatActivity {
 
     Button bagikan;
-    TextView Makan;
-    TextView artiMakan;
+    TextView makan;
+    TextView artimakan;
+    String Makan;
+    String artiMakan;
 
 
     @Override
@@ -21,19 +23,23 @@ public class DoaMakan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doa_makan);
         bagikan=(Button) findViewById(R.id.share);
-        Makan=(TextView) findViewById(R.id.makan);
-        artiMakan=(TextView) findViewById(R.id.arti_makan);
+        makan=(TextView) findViewById(R.id.makan);
+        artimakan=(TextView) findViewById(R.id.arti_makan);
+        Makan=makan.getText().toString();
+        artiMakan=artimakan.getText().toString();
+
 
 
         bagikan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final Intent makan = new Intent(android.content.Intent.ACTION_SEND);
+                Intent makan=new Intent();
+
 
                 makan.setAction(Intent.ACTION_SEND);
                 makan.putExtra(Intent.EXTRA_TEXT,""+Makan+artiMakan);
                 makan.setType("text/plain");
-                startActivity(makan);
+                startActivity(Intent.createChooser(makan,"mau di kirim kemana ?"));
             }
         });
 

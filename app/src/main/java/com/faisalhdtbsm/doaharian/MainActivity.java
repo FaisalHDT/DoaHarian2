@@ -8,7 +8,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button makan,setmakan,setminum,sebtidur,buruk,baik,banguntidur,masuktoilet,istinja,keluartoilet,pagi,sore,bercermin;
+    Button makan,setmakan,setminum,sebtidur,buruk,baik,banguntidur,masuktoilet,istinja,keluartoilet,pagi,sore,bercermin,masukrumah,kelrumah,
+    berpakaian,pakaianbaru,lepaspakaian,ilmu,sebelajar,sesbelajar,bepergian,kendaraan,kapal,sampaitujuan,masukmasjid,wudhu,info;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,21 @@ public class MainActivity extends AppCompatActivity {
         pagi=(Button) findViewById(R.id.pagihari);
         sore=(Button) findViewById(R.id.sorehari);
         bercermin=(Button) findViewById(R.id.bercermin);
+        masukrumah=(Button) findViewById(R.id.masukrumah);
+        kelrumah=(Button) findViewById(R.id.keluarrumah);
+        berpakaian=(Button) findViewById(R.id.berpakaian);
+        pakaianbaru=(Button) findViewById(R.id.pakaianbaru);
+        lepaspakaian=(Button) findViewById(R.id.lepaspakaian);
+        ilmu=(Button) findViewById(R.id.ilmubermanfaat);
+        sebelajar=(Button) findViewById(R.id.sebelumbelajar);
+        sesbelajar=(Button) findViewById(R.id.sesudahbelajar);
+        bepergian=(Button) findViewById(R.id.bepergian);
+        kendaraan=(Button) findViewById(R.id.kendaraan);
+        kapal=(Button) findViewById(R.id.kapal);
+        sampaitujuan=(Button) findViewById(R.id.sampaitujuan);
+        masukmasjid=(Button) findViewById(R.id.masukmasjid);
+        wudhu=(Button) findViewById(R.id.wudhu);
+        info=(Button) findViewById(R.id.info);
 
         makan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -120,6 +136,112 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent bercermin=new Intent(MainActivity.this,Bercermin.class);
                 startActivity(bercermin);
+            }
+        });
+        masukrumah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent masukrumah=new Intent(MainActivity.this,MasukRumah.class);
+                startActivity(masukrumah);
+            }
+        });
+        kelrumah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kelrumah=new Intent(MainActivity.this,KeluarRUmah.class);
+                startActivity(kelrumah);
+            }
+        });
+        berpakaian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent berpakaian=new Intent(MainActivity.this,Berpakaian.class);
+                startActivity(berpakaian);
+            }
+        });
+        pakaianbaru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pakaianbaru=new Intent(MainActivity.this,PakaianBaru.class);
+                startActivity(pakaianbaru);
+            }
+        });
+        lepaspakaian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent lepaspakaian=new Intent(MainActivity.this,LepasPakaian.class);
+                startActivity(lepaspakaian);
+            }
+        });
+        ilmu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ilmubermanfaat=new Intent(MainActivity.this,IlmuBermanfaat.class);
+                startActivity(ilmubermanfaat);
+            }
+        });
+        sebelajar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sebelajar=new Intent(MainActivity.this,SebelumBelajar.class);
+                startActivity(sebelajar);
+            }
+        });
+        sesbelajar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sesbelajar=new Intent(MainActivity.this,SetelahBelajar.class);
+                startActivity(sesbelajar);
+            }
+        });
+        bepergian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bepergian=new Intent(MainActivity.this,Bepergian.class);
+                startActivity(bepergian);
+            }
+        });
+        kendaraan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kendaraan=new Intent(MainActivity.this,Kendaraan.class);
+                startActivity(kendaraan);
+            }
+        });
+        kapal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kapal=new Intent(MainActivity.this,NaikKapal.class);
+                startActivity(kapal);
+            }
+        });
+        sampaitujuan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sampaitujuan=new Intent(MainActivity.this,SampaiTujuan.class);
+                startActivity(sampaitujuan);
+            }
+        });
+        masukmasjid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent masukmasjid=new Intent(MainActivity.this,MasukMasjid.class);
+                startActivity(masukmasjid);
+            }
+        });
+        wudhu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent wudhu=new Intent(MainActivity.this,Wudhu.class);
+                startActivity(wudhu);
+            }
+        });
+
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent info=new Intent(MainActivity.this,Info.class);
+                startActivity(info);
             }
         });
     }

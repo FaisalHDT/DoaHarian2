@@ -9,8 +9,10 @@ import android.widget.TextView;
 
 public class SetelahMakan extends AppCompatActivity {
 
-    TextView setmakan;
-    TextView artisetmakan;
+    TextView sudahmakan;
+    TextView artisudahmakan;
+    String setMakan;
+    String artiset_makan;
     Button share;
 
     @Override
@@ -18,8 +20,10 @@ public class SetelahMakan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setelah_makan);
 
-        setmakan=(TextView) findViewById(R.id.setmakan);
-        artisetmakan=(TextView) findViewById(R.id.arti_makan);
+        sudahmakan=(TextView) findViewById(R.id.setmakan);
+        artisudahmakan=(TextView) findViewById(R.id.arti_makan);
+        setMakan=sudahmakan.getText().toString();
+        artiset_makan=artisudahmakan.getText().toString();
         share=(Button) findViewById(R.id.share);
 
         share.setOnClickListener(new View.OnClickListener() {
@@ -28,9 +32,9 @@ public class SetelahMakan extends AppCompatActivity {
                 Intent bagikan=new Intent();
 
                 bagikan.setAction(Intent.ACTION_SEND);
-                bagikan.putExtra(Intent.EXTRA_TEXT,""+setmakan+artisetmakan);
+                bagikan.putExtra(Intent.EXTRA_TEXT,""+setMakan+artiset_makan);
                 bagikan.setType("text/plain");
-              startActivity(Intent.createChooser(bagikan,""));
+              startActivity(Intent.createChooser(bagikan,"mau di kirim kemana ?"));
             }
         });
 

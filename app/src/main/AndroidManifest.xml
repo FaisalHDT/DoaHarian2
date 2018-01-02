@@ -4,17 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".DoaMakan" />
         <activity android:name=".SetelahMakan" />
         <activity android:name=".SetelahMinum" />
@@ -27,7 +21,29 @@
         <activity android:name=".KeluarToilet" />
         <activity android:name=".PagiHari" />
         <activity android:name=".SoreHari" />
-        <activity android:name=".Bercermin"></activity>
+        <activity android:name=".Bercermin" />
+        <activity android:name=".MasukRumah" />
+        <activity android:name=".KeluarRUmah" />
+        <activity android:name=".Berpakaian" />
+        <activity android:name=".PakaianBaru" />
+        <activity android:name=".LepasPakaian" />
+        <activity android:name=".IlmuBermanfaat" />
+        <activity android:name=".SebelumBelajar" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetelahBelajar" />
+        <activity android:name=".Bepergian" />
+        <activity android:name=".Kendaraan" />
+        <activity android:name=".NaikKapal" />
+        <activity android:name=".SampaiTujuan" />
+        <activity android:name=".MasukMasjid" />
+        <activity android:name=".Wudhu" />
+        <activity android:name=".Info"></activity>
     </application>
 
 </manifest>
