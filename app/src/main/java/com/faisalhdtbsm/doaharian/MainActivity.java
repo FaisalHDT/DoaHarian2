@@ -1,6 +1,7 @@
 package com.faisalhdtbsm.doaharian;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button makan,setmakan,setminum,sebtidur,buruk,baik,banguntidur,masuktoilet,istinja,keluartoilet,pagi,sore,bercermin,masukrumah,kelrumah,
-    berpakaian,pakaianbaru,lepaspakaian,ilmu,sebelajar,sesbelajar,bepergian,kendaraan,kapal,sampaitujuan,masukmasjid,wudhu,info,share;
+    berpakaian,pakaianbaru,lepaspakaian,ilmu,sebelajar,sesbelajar,bepergian,kendaraan,kapal,sampaitujuan,masukmasjid,wudhu,info,share,rating;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         wudhu=(Button) findViewById(R.id.wudhu);
         info=(Button) findViewById(R.id.info);
         share=(Button) findViewById(R.id.share);
+        rating=(Button) findViewById(R.id.setting);
 
         makan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -255,6 +257,17 @@ public class MainActivity extends AppCompatActivity {
                 share.putExtra(Intent.EXTRA_TEXT,"");
                 share.setType("text/plain");
                 startActivity(Intent.createChooser(share,"mau dikirim kemana ?"));
+            }
+        });
+
+        rating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent rate=new Intent();
+                rate.setAction(Intent.ACTION_VIEW);
+                rate.addCategory(Intent.CATEGORY_BROWSABLE);
+                rate.setData(Uri.parse("https://web.facebook.com/faisal.hdtbsm?ref=bookmarks"));
+                startActivity(Intent.createChooser(rate,""));
             }
         });
     }

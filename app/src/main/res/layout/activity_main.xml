@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/kanan"
-            android:drawableEnd="@drawable/pengaturan"
+            android:drawableEnd="@drawable/rate"
             android:padding="10dp"
             android:text="@string/setting"
             android:textAlignment="textStart"
