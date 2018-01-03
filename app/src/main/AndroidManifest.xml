@@ -43,7 +43,7 @@
         <activity android:name=".SampaiTujuan" />
         <activity android:name=".MasukMasjid" />
         <activity android:name=".Wudhu" />
-        <activity android:name=".Info"></activity>
+        <activity android:name=".Info" />
     </application>
 
 </manifest>

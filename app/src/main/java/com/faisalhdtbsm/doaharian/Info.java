@@ -1,5 +1,6 @@
 package com.faisalhdtbsm.doaharian;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.util.Linkify;
@@ -7,13 +8,12 @@ import android.widget.TextView;
 
 public class Info extends AppCompatActivity {
 
-    private TextView tvLinkify;
-    private TextView tvlink2;
     TextView email;
     TextView fb;
     String email1;
     String facebook;
 
+    @SuppressLint({"CutPasteId", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,8 +25,8 @@ public class Info extends AppCompatActivity {
         facebook=fb.getText().toString();
 
 
-        tvLinkify = (TextView) findViewById(R.id.email);
-        tvlink2=(TextView)findViewById(R.id.facebook);
+        TextView tvLinkify = (TextView) findViewById(R.id.email);
+        TextView tvlink2 = (TextView) findViewById(R.id.facebook);
         tvLinkify.setText("" + email1);
         tvlink2.setText(""+facebook);
 

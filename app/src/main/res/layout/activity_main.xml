@@ -12,8 +12,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/layar"
         android:layout_weight="1"
+        android:background="@drawable/layar"
         android:orientation="vertical">
 
         <TextView
@@ -25,53 +25,57 @@
             android:text="@string/do_a_harian"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
+
         <ImageView
             android:layout_width="200dp"
             android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/bismillah"/>
+            android:src="@drawable/bismillah" />
 
         <include layout="@layout/button" />
     </LinearLayout>
 
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-    <Button
-        android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/kiri"
-        android:drawableEnd="@drawable/info"
-        android:text="@string/info"
-        android:textAlignment="textStart"
-        android:textSize="16sp"
-        android:padding="10dp"
-        android:layout_weight="1"/>
-    <Button
-        android:id="@+id/share"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/tengah"
-        android:drawableEnd="@drawable/cari"
-        android:text="@string/bagikan"
-        android:textAlignment="textStart"
-        android:textSize="16sp"
-        android:padding="10dp"
-        android:layout_weight="1"/>
-    <Button
-        android:id="@+id/setting"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/kanan"
-        android:textAlignment="textStart"
-        android:drawableEnd="@drawable/pengaturan"
-        android:text="@string/setting"
-        android:textSize="16sp"
-        android:padding="10dp"
-        android:layout_weight="1"
-        />
-</LinearLayout>
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/kiri"
+            android:drawableEnd="@drawable/info"
+            android:padding="10dp"
+            android:text="@string/info"
+            android:textAlignment="textStart"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tengah"
+            android:drawableEnd="@drawable/cari"
+            android:padding="10dp"
+            android:text="@string/bagikan"
+            android:textAlignment="textStart"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/kanan"
+            android:drawableEnd="@drawable/pengaturan"
+            android:padding="10dp"
+            android:text="@string/setting"
+            android:textAlignment="textStart"
+            android:textSize="13sp" />
+    </LinearLayout>
 
 </LinearLayout>
