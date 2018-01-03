@@ -19,7 +19,7 @@ public class KeluarToilet extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_keluar_toilet);
 
-        lafaz = (TextView) findViewById(R.id.keltoilet);
+        lafaz = (TextView) findViewById(R.id.keluartoilet);
         arti = (TextView) findViewById(R.id.arti_keltoilet);
         kelToilet=lafaz.getText().toString();
         artiToilet=arti.getText().toString();

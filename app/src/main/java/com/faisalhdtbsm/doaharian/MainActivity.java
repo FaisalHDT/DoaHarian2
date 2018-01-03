@@ -111,13 +111,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        keluartoilet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent keltoielt=new Intent(MainActivity.this,KeluarToilet.class);
-                startActivity(keltoielt);
-            }
-        });
+       keluartoilet.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent toilet=new Intent(MainActivity.this,KeluarToilet.class);
+               startActivity(toilet);
+           }
+       });
         pagi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

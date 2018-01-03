@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Daily Prayer</string>
+
+    <string name="sudahminum">اَلْحَمْدُ ِللهِ الَّذِىْ جَعَلَهُ عَذْبًا فُرَاتًا بِرَحْمَتِهِ وَلَمْ يَجْعَلْهُ مِلْحًا اُجَاجًا بِذُنُوْبِنَا</string>
+
+    <string name="sebelumTidur">بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ</string>
+
+    <string name="mimpiburuk">اَللّٰهُمَّ إِنّىِ أَعُوْذُ بِكَ مِنْ عَمَلِ الشَّيْطَانِ وَسَيِّئاَتِ اْلأَحْلاَمِ</string>
+
+    <string name="mimpibaik">اَلْحَمْدُ ِللهِ الَّذِيْ قَطْلَ الْحَاجَتِ</string>
+
+    <string name="banguntidur">اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ</string>
+
+    <string name="kamarmandi">اَللّٰهُمَّ اِنّىْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ</string>
+
+    <string name="istinja">اَللّٰهُمَّ طَهِّرُ قَلْبِىْ مِنَ النِّفَاقِ وَحَصِّنْ فَرْخِىْ مِنَ الْفَوَاحِشِ</string>
+
+    <string name="kelkamarmandi">غُفْرَانَكَ الْحَمْدُ ِللهِ الَّذِىْ اَذْهَبَ عَنّى اْلاَذَى وَعَافَانِىْ</string>
+
+    <string name="pagihari">اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ النُّشُوْرُ</string>
+
+    <string name="sorehari">اَللّٰهُمَّ بِكَ اَمْسَيْنَا وَبِكَ اَصْبَحْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ الْمَصِيْرُ</string>
+
+    <string name="bercermin">اَلْحَمْدُ ِللهِ كَمَا حَسَّنْتَ خَلْقِىْ  فَحَسِّـنْ خُلُقِىْ</string>
+
+    <string name="masukrumah">اَللّٰهُمَّ اِنّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرَالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبّنَا تَوَكَّلْنَا</string>
+
+    <string name="keluarrumah">بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله</string>
+
+    <string name="berpakaian">بِسْمِ اللهِ اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَاهُوَ لَهُ وَاَعُوْذُبِكَ مِنْ شَرِّهِ وَشَرِّمَا هُوَلَهُ</string>
+
+    <string name="pakaianbaru">اَلْحَمْدُ لِلّٰهِ الَّذِىْ كَسَانِىْ هَذَا وَرَزَقَنِيْهِ مِنْ غَيْرِ حَوْلٍ مِنِّىْ وَلاَقُوَّةٍ</string>
+
+    <string name="lepaspakaian">بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ</string>
+
+    <string name="ilmu">اَللّٰهُمَّ اِنِّى اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلاً مُتَقَبَّلاً</string>
+
+    <string name="sebbelajar">يَارَبِّ زِدْنِىْ عِلْمًا وَارْزُقْنِىْ فَهْمًا</string>
+
+    <string name="sesbelajar">اَللّٰهُمَّ اِنِّى اِسْتَوْدِعُكَ مَاعَلَّمْتَنِيْهِ فَارْدُدْهُ اِلَىَّ عِنْدَ حَاجَتِىْ وَلاَ تَنْسَنِيْهِ يَارَبَّ الْعَالَمِيْنَ</string>
+
+    <string name="bepergian">اَللّٰهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِعَنَّابُعْدَهُ اَللّٰهُمَّ اَنْتَ الصَّاحِبُ فِى السَّفَرِوَالْخَلِيْفَةُفِى الْاَهْلِ</string>
+
+    <string name="kendaraan">سُبْحَانَ الَّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ</string>
+
+    <string name="naikkapal">بِسْمِ اللهِ مَجْرَهَا وَمُرْسَهَآاِنَّ رَبِّىْ لَغَفُوْرٌرَّحِيْمٌ</string>
+
+    <string name="sampaitujuan">اَلْحَمْدُ ِللهِ الَّذِى سَلَمَنِى وَالَّذِى اَوَنِى وَالَّذِى جَمَعَ الشَّمْلَ بِ</string>
+
+    <string name="masukmasjid">اَللّٰهُمَّ افْتَحْ لِيْ اَبْوَابَ رَحْمَتِكَ</string>
+
+    <string name="wudhu">نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ اْلاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالَى</string>
+
     <string name="kirim">"  where to send ?"</string>
     <string name="arti_makan">Meaning: O God, bless us in the provision which You have given us and save us from the punishment of the fire of hell</string>
     <string name="artisudahmakan">Meaning: Praise be to Allah who has fed us and our drinks, and made us Muslims</string>
@@ -63,4 +114,6 @@
     <string name="isiinfo">This application is made so that we can practice daily prayer \n\nAcknowledgments to Lecturer and to class IT B Hamzanwadi University \n\nYou can contact us by:</string>
     <string name="email">faisalhdtbsm1@gmail.com</string>
     <string name="facebook">https://github.com/FaisalHDT</string>
+    <string name="makan">اَللَّهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</string>
+    <string name="sudahmakan">اَلْحَمْدُ ِللهِ الَّذِىْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ</string>
 </resources>
