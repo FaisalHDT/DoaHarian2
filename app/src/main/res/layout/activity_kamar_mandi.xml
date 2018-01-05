@@ -52,7 +52,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/kelkamarmandi"
+                    android:text="@string/kamarmandi"
                     android:textSize="25sp"
                     android:textColor="@android:color/black"
                     android:layout_marginEnd="6dp"/>
@@ -62,7 +62,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/artikelkamarmandi"
+                    android:text="@string/artikamarmandi"
                     android:textSize="16sp"
                     android:textColor="@android:color/black"
                     android:gravity="center"
